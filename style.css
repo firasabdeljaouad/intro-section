@@ -64,12 +64,12 @@ ul li:hover {
     gap: .5rem
 }
 .one{
-    bottom:-230px;
+    bottom:-250px;
     right: 340px;
 
 }
 .two{
-    bottom: -174px;
+    bottom: -195px;
 }
 
 .register {
@@ -157,4 +157,10 @@ button:hover {
     color: hsl(228, 45%, 44%);
 }
 
-@media screen and (max-width :800px) {}
+@media screen and (max-width :800px) {
+    body{
+        display: flex;
+        min-height: 100vh;
+    }
+
+}
