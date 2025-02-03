@@ -1,7 +1,7 @@
 
 let features = document.querySelector(".feature");
 let company = document.querySelector(".company");
-let nav = document.querySelectorAll(".navbar .nav-left ul li");
+let nav = document.querySelectorAll(".nav-left ul li");
 let link = document.querySelectorAll(".sub-menu");
 let icon = document.querySelectorAll(".arrow")
 
