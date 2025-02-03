@@ -10,11 +10,9 @@ body {
     font-family: "Epilogue", sans-serif;
     min-height: 100vh;
     position: relative;
+    background-color: hsl(0, 0%, 98%)
+    ;
 
-}
-
-.header {
-    width: 1450px;
 }
 
 .logo_with_navbar {
@@ -54,7 +52,7 @@ ul li:hover {
     position: absolute;
     background-color: white;
     text-align: center;
-    
+
 }
 
 .sub-menu .sub-link {
@@ -63,12 +61,14 @@ ul li:hover {
     width: 100px;
     gap: .5rem
 }
-.one{
-    bottom:-257px;
+
+.one {
+    bottom: -257px;
     right: 340px;
 
 }
-.two{
+
+.two {
     bottom: -193px;
 }
 
@@ -82,6 +82,9 @@ ul li:hover {
 .register:hover {
     border: 1px solid black;
 }
+.mobile-list img{
+    display: none;
+}
 
 .header {
     display: flex;
@@ -92,7 +95,7 @@ ul li:hover {
     display: flex;
     justify-content: space-around;
     /* margin: 50px; */
-    width: 1500px;
+    /* width: 1500px; */
 }
 
 .description {
@@ -157,10 +160,69 @@ button:hover {
     color: hsl(228, 45%, 44%);
 }
 
-@media screen and (max-width :800px) {
-    body{
-        display: flex;
+@media only screen and (max-width :600px) {
+    * {
+        box-sizing: border-box;
+        padding: 0;
+        border: 0;
+    }
+
+    body {
+        font-family: "Epilogue", sans-serif;
         min-height: 100vh;
+        position: relative;
+
+    }
+
+    .img img {
+        padding-top: 50px;
+        width: 600px;
+        height: 650px;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contunt {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contunt br {
+        display: none;
+    }
+
+    .navbar,
+    .nav-right {
+        display: none;
+    }
+    .mobile-list img{
+        display: block;
+        margin: 5px;
+        cursor: pointer;
+    }
+
+    h1 {
+        font-size: 55px;
+    }
+
+    h1,
+    p {
+        text-align: center;
+    }
+
+    .description {
+        justify-content: center;
+        align-items: center;
+    }
+    
+
+    .attribution {
+        margin-top: 20px;
     }
 
 }
