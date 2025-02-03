@@ -10,14 +10,12 @@ body {
     font-family: "Epilogue", sans-serif;
     min-height: 100vh;
     position: relative;
-    background-color: hsl(0, 0%, 98%)
-    ;
+    background-color: hsl(0, 0%, 98%);
 
 }
 
 .logo_with_navbar {
     display: flex;
-    position: relative;
 }
 
 .logo {
@@ -82,20 +80,31 @@ ul li:hover {
 .register:hover {
     border: 1px solid black;
 }
-.mobile-list img{
+
+.mobile-list img {
     display: none;
+    position: absolute
 }
 
-.header {
+.nave-container {
+    /* display: flex; */
+    /* width: 100%;  */
+    padding-right: 20px ;
+   
+}
+
+.logo_with_navbar  {
+    display: flex;
+    
+}
+.nd{
     display: flex;
     justify-content: space-between;
 }
-
 .contunt {
     display: flex;
     justify-content: space-around;
-    /* margin: 50px; */
-    /* width: 1500px; */
+   
 }
 
 .description {
@@ -170,13 +179,13 @@ button:hover {
     body {
         font-family: "Epilogue", sans-serif;
         min-height: 100vh;
-        position: relative;
+        /* position: relative; */
 
     }
 
     .img img {
         padding-top: 50px;
-        width: 600px;
+        width: auto;
         height: 650px;
     }
 
@@ -184,6 +193,17 @@ button:hover {
         display: flex;
         flex-direction: column;
     }
+    .nave-container {
+        display: flex;
+        /* width: 100%;  */
+        justify-content: space-between;
+        
+       
+    }
+    /* .nav-web{
+        display: flex;
+        
+    } */
 
     .contunt {
         display: flex;
@@ -197,10 +217,11 @@ button:hover {
     }
 
     .navbar,
-    .nav-right {
+    .nav-height {
         display: none;
     }
-    .mobile-list img{
+
+    .mobile-list img {
         display: block;
         margin: 5px;
         cursor: pointer;
@@ -219,7 +240,7 @@ button:hover {
         justify-content: center;
         align-items: center;
     }
-    
+
 
     .attribution {
         margin-top: 20px;
