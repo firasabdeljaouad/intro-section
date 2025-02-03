@@ -61,13 +61,13 @@ ul li:hover {
 }
 
 .one {
-    bottom: 410px;
-    right: 810px;
+    bottom: auto;
+    right: auto;
 
 }
 
 .two {
-    bottom: 410px;
+    bottom: auto;
 }
 
 .register {
